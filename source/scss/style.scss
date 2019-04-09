@@ -1,0 +1,34 @@
+$primary-color: #A0CCDA;
+$secondary-color:#9CFFD9 ;
+$third-color: #7CE577;
+$fourth-color:#7BC950;
+$serif-fonts: Georgia, Cambria, "Times New Roman", serif;
+$font-base-size: 20px;
+html{
+  font-family: $serif-fonts;
+}
+a{
+  color: $third-color;
+}
+p{
+  font-family: $serif-fonts;
+  border-radius: 5px;
+}
+body{
+  font-family: $serif-fonts;
+  $font-base-size: 20px;
+  color: $primary-color;
+}
+
+
+input[type= "password"] ,input[type= "button"],input[type= "text" ],textarea{
+  font-family: $serif-fonts;
+  color: $primary-color;
+  border-color: $primary-color;
+  background-color: lighten($primary-color, 50%);
+  border-radius: 5px;
+}
+img{
+  border-radius: 5px;
+}
+
