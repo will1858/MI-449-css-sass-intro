@@ -1,9 +1,5 @@
-$primary-color: #A0CCDA;
-$secondary-color:#9CFFD9 ;
-$third-color: #7CE577;
-$fourth-color:#7BC950;
-$serif-fonts: Georgia, Cambria, "Times New Roman", serif;
-$font-base-size: 20px;
+@import "_variables";
+
 html{
   font-family: $serif-fonts;
 }
